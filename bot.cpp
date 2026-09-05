@@ -8,7 +8,7 @@
 using json = nlohmann::json;
 using namespace std;
 
-const string BOT_TOKEN = "8769381388:AAFxVX8d4CY_1k-FylZtDEoaR7H3ud8sF0";
+const string BOT_TOKEN = "8769381388:AAHE7NFRWJM3RDYNjQvggaw8QyaRkqP7u0";
 const string ADMIN_CHAT_ID = "8888320555";
 
 size_t WriteCallback(void *contents, size_t size, size_t nmemb, string *output) {
