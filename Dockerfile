@@ -1,7 +1,6 @@
-FROM python:3.10-slim
-RUN apt-get update && apt-get install -y chromium chromium-driver && rm -rf /var/lib/apt/lists/*
+FROM gcc:latest
+RUN apt-get update && apt-get install -y libcurl4-openssl-dev nlohmann-json3-dev
 WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["python", "bot.ry"]
+COPY bot.cpp .
+RUN g++ -std=c++17 bot.cpp -lcurl -pthread -o bot
+CMD ["./bot"]
