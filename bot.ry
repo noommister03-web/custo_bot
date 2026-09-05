@@ -13,8 +13,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # ---------- КОНФИГ ----------
-TELEGRAM_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
+TELEGRAM_TOKEN = os.getenv8769381388:AAHE7NFRWFJM3RDYN jQvggaw8Q
+yaRkqP7u0
+ADMIN_CHAT_ID = os.getenv 8888320555
 WHATSAPP_NUMBER = "+351927884875"  # твой номер WhatsApp
 
 STEPS = [
